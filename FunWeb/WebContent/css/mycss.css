@@ -1,0 +1,51 @@
+@charset "UTF-8";
+table.greyGridTable {
+  border: 3px solid #7C7C7C;
+  background-color: #D3D3D3;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 16px;
+  word-break:break-all;
+}
+table.greyGridTable td, table.greyGridTable th {
+  border: 2px solid #FFFFFF;
+  padding: 3px 4px;
+}
+table.greyGridTable th {
+	width: 15%
+}
+
+table.greyGridTable td:nth-child(even) {
+  background: #EBEBEB;
+  text-align: left;
+}
+.but {
+	width: 70px;
+	height: 40px;
+	float: right;
+}
+#board_filefont {
+		font-size: 14px;
+		color: red;	
+}
+#dat { background-color: #e8e8e8;} 
+#dat_nn {font-size: 17px;
+font-weight: bold;}
+.dat_contentStyle {word-wrap: break-word;
+border-bottom: 1px dashed;
+margin-bottom : 10px;
+padding-bottom: 10px;
+font-size: 15px;}
+div#dat button { border: none;
+background-color : #e8e8e8; 
+cursor: pointer;}
+div#dat button:active {background-color: white;}
+.datbut { border: none;
+background-color : #e8e8e8; 
+cursor: pointer;
+float:right;
+}
+.datbut:active {background-color: white;}
+
+
